@@ -18,6 +18,7 @@ class RankingViewController: UIViewController {
     
     //トップに戻るボタン
     @IBAction func toTop(){
+        
         self.dismiss(animated: true, completion: nil)
     }
     

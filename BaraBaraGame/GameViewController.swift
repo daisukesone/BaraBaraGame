@@ -82,6 +82,7 @@ class GameViewController: UIViewController {
         score = 1000 //スコアの値をリセットする
         positionX = [width/2, width/2, width/2]
         if timer.isValid == false {
+            
             self.start() //スタートメソッドを呼び出す
         }
         
